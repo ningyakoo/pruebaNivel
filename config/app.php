@@ -166,6 +166,8 @@ return [
          * Package Service Providers...
          */
 
+        
+
         /*
          * Application Service Providers...
          */
@@ -174,7 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        App\Providers\SmtpProvider::class,
+        App\Providers\SesProvider::class,
     ],
 
     /*
